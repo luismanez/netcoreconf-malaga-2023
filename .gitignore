@@ -396,3 +396,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Luisman
+__notes.md
+src/GraphHero.Tests/hostsettings.json
+src/GraphHero/hostsettings.json

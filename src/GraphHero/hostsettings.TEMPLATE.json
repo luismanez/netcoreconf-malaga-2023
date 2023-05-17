@@ -1,0 +1,17 @@
+{
+    "Logging": {
+      "LogLevel": {
+        "Default": "Debug",
+        "System": "Information",
+        "Microsoft": "Information"
+      }
+    },
+    "AzureAd": {
+      "Domain": "TENANT.onmicrosoft.com",
+      "TenantId": "XXXXXXXXXXXX",
+      "ClientId": "XXXXXXX",
+      "ClientSecret": "XXXXXXXXXX",
+      "UserName": "batman@tenant.onmicrosoft.com",
+      "UserPassword": "Shhhhhhhhh"
+    }
+  }
