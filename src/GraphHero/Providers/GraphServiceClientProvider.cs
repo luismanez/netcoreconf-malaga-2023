@@ -1,6 +1,5 @@
 using Azure.Identity;
 using GraphHero.Options;
-using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.Graph;
 using GraphBeta = Microsoft.Graph.Beta;
@@ -12,7 +11,7 @@ public interface IGraphServiceClientProvider
     GraphServiceClient GetGraphServiceClientWithClientCredentialsAuth();
     GraphServiceClient GetGraphServiceClientWithDeviceCodeAuth();
     GraphServiceClient GetGraphServiceClientWithInteractiveProviderAuth();
-    Microsoft.Graph.Beta.GraphServiceClient GetGraphBetaServiceClientWithClientCredentialsAuth();
+    GraphBeta.GraphServiceClient GetGraphBetaServiceClientWithClientCredentialsAuth();
 }
 
 public class GraphServiceClientProvider : IGraphServiceClientProvider

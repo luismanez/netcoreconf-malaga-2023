@@ -401,3 +401,4 @@ FodyWeavers.xsd
 __notes.md
 src/GraphHero.Tests/hostsettings.json
 src/GraphHero/hostsettings.json
+.DS_Store
