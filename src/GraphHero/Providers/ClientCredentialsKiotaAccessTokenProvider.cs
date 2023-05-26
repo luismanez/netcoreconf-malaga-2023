@@ -28,6 +28,7 @@ public class ClientCredentialsKiotaAccessTokenProvider : IAccessTokenProvider
 
         var accessToken = await clientSecretCredential.GetTokenAsync(
             new Azure.Core.TokenRequestContext(scopes), cancellationToken);
+
         return accessToken.Token;
     }
 }

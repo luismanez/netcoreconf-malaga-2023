@@ -63,7 +63,7 @@ public class BatchRequestHostedService : IHostedService
             _logger.LogInformation(group.DisplayName);
         }
     }
-    
+
     public Task StopAsync(CancellationToken cancellationToken)
     {
         _logger.LogWarning("BatchRequestHostedService Stopped");

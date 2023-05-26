@@ -22,8 +22,10 @@ public class AuthenticationHostedService : IHostedService
 
         // var graphServiceClient = _graphServiceClientProvider
         //     .GetGraphServiceClientWithClientCredentialsAuth();
+
         // var graphServiceClient = _graphServiceClientProvider
         //     .GetGraphServiceClientWithDeviceCodeAuth();
+
         var graphServiceClient = _graphServiceClientProvider
             .GetGraphServiceClientWithInteractiveProviderAuth();
 

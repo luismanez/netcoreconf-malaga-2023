@@ -15,6 +15,7 @@ public class AuditDelegatingHandler : DelegatingHandler
         CancellationToken cancellationToken)
     {
         _logger.LogInformation($"**** AUDIT_HANDLER**** Requested URL: {request.RequestUri!.AbsoluteUri}");
+
         foreach (var header in request.Headers)
         {
             string headerName = header.Key;
